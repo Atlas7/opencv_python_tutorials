@@ -23,8 +23,6 @@ Try out other images if we like!
 
 ## References
 
-See this [OpenCV-Python Tutorial Page](http://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_gui/py_image_display/py_image_display.html#display-image) for the official OpenCV-Python Tutorial Instructions.
+See this [OpenCV-Python Tutorial Page - Getting Started with Images](http://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_gui/py_image_display/py_image_display.html#display-image) for the official OpenCV-Python Tutorial Instructions.
 
-The image [messi_hd.jpg](messi.jpg) (High Definition version) is obtained from [http://www.biznews.com/wp-content/uploads/2014/04/Barcelona.jpg](http://www.biznews.com/wp-content/uploads/2014/04/Barcelona.jpg). A slightly lower definition version [messi_med.jpg](messi_med.jpg) is also created for playing around with.
-
-
+The image [messi_hd.jpg](messi_hd.jpg) (High Definition version) is obtained from [http://www.biznews.com/wp-content/uploads/2014/04/Barcelona.jpg](http://www.biznews.com/wp-content/uploads/2014/04/Barcelona.jpg). A slightly lower definition version [messi_med.jpg](messi_med.jpg) is also created for playing around with.
