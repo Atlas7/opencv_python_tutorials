@@ -16,7 +16,7 @@ import numpy as np
 import cv2
 
 #%% 
-# If run in IDE, we need to set work directory
+# If run in IDE, we need to set work directory. Uncomment and update below.
 os.getcwd()
 os.chdir(r"C:\Users\Johnny\version-control\opencv_python_tutorials\gui_features_in_opencv\getting_started_with_images")
 os.getcwd()
