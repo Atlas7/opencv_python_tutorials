@@ -22,18 +22,27 @@ os.chdir(r"C:\Users\Johnny\version-control\opencv_python_tutorials\gui_features_
 os.getcwd()
 
 #%%
-# Load an color image in grayscale
+# Load an color image. 2nd arg: 1 = color, 0 = grayscale, -1 = unchanged)
 img = cv2.imread(r"messi_hd.jpg", 0)
 print img
 
-#%%
-# required if run in IDE. e.g. Spyder.
+#%% 
+""" 
+Run this cell in interactive mode to see the loaded image.
+Not required in batch mode.
+"""
+# Required if run in IDE. e.g. Spyder.
 cv2.startWindowThread() 
-
-# enable resizing. Handy for very large image.
+# Enable resizing. Handy for very large image.
 cv2.namedWindow('image', cv2.WINDOW_NORMAL) 
-
 # Display an image
 cv2.imshow('image',img)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+
+#%%
+#  ESC key to exit, or 's' to save.
+k = cv2.waitKey(0) & 0xFF
+if k == 27:         # wait for ESC key to exit
+    cv2.destroyAllWindows()
+elif k == ord('s'): # wait for 's' key to save and exit
+    cv2.imwrite(r"messi_hd_grayscale.jpg",img)
+    cv2.destroyAllWindows()
