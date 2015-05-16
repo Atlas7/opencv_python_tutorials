@@ -38,7 +38,7 @@ You shall also notice that a new output video `output.avi` is created:
 
 And when you play it (`output.avi`), you shall see our new processed (flipped upside down) video!
 
-![screenshot_video_after.png](./screenshot_video_after.png)
+![screenshot_video_after.png](./screnshots/screenshot_video_after.png)
 
 This completes our test run :)
 
