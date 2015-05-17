@@ -18,7 +18,13 @@ Feel free to view the video `all_blacks_skills_part_2.mp4` (e.g. via VLC player)
 
 ![screenshot_video_before.png](./screenshots/screenshot_video_before.png)
 
-Run the `load_video.py`. If run via IDE (e.g. Anaconda), take heed of the Prerequisites section above!
+Run the `load_video.py`. If run as a batch, simply do this:
+
+```
+ipython load_video.py
+```
+
+Alternatively, if run via IDE (e.g. Anaconda), take heed of the Prerequisites section above!
 
 ![screenshot_test_run_code.png](./screenshots/screenshot_test_run_code.png)
 
