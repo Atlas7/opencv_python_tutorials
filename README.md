@@ -14,9 +14,9 @@ When I first started the tutorial I used OpenCV 2.x - but when I progressed I re
 
 As now I have a mix of OpenCV 2.x and 3.x codes, for now, I shall differentiate the two by (naively) code naming convention.
 
-All OpenCV 3.x code will have suffix `_3x`.
+All OpenCV 2.x code will have suffix `_2x`.
 
-All OpenCV 2.x code will be named as it is (no `_2x` suffix).
+All OpenCV 3.x code will have suffix `_3x`.
 
 At some point in future I guess I will have separate repositories, one for OpenCV 2.x, and one for OpenCV 3.x.
 
