@@ -29,7 +29,7 @@ The image [messi.jpg](messi_hd.jpg) (High Definition version) is obtained from [
 
 # cv2.imshow (BGR) versus matplotlib.pyplot (RGB)
 
-Inspired by a Python code by user "Abid Rahman Kat" at [this Stackoverflow forum](http://stackoverflow.com/questions/15072736/extracting-a-region-from-an-image-using-slicing-in-python-opencv/15074748#15074748), the code `show_image_cv2_vs_matplotlib.py` demonstrates the difference between plotting with cv2 versus matplotlib.
+Inspired by a Python code by user "Abid Rahman Kat" at [this Stackoverflow forum](http://stackoverflow.com/questions/15072736/extracting-a-region-from-an-image-using-slicing-in-python-opencv/15074748#15074748), the code `show_cv2_vs_pyplot.py` demonstrates the difference between plotting with cv2 versus matplotlib.
 
 Simply running the code will reveal the difference between cv2.imshow (default uses BGR) versus matplotlib.pyplot (default uses RGB):
 
