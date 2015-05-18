@@ -12,12 +12,4 @@ Even though the OpenCV 2.x version is very mature and well documented, the [Open
 
 When I first started the tutorial I used OpenCV 2.x - but when I progressed I realized the need to try out OpenCV 3.x (So what the tutorial produces mataches to what I produce locally on my machine).
 
-As now I have a mix of OpenCV 2.x and 3.x codes, for now, I shall differentiate the two by (naively) code naming convention.
-
-All OpenCV 2.x code will have suffix `_2x`.
-
-All OpenCV 3.x code will have suffix `_3x`.
-
-At some point in future I guess I will have separate repositories, one for OpenCV 2.x, and one for OpenCV 3.x.
-
-But for now I incline to keep things simple.
+To prevent having a mix of OpenCV 2.x and 3.x codes, I shall stick to OpenCV 3.x for the duration of the [OpenCV-Python Tutorials](https://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_tutorials.html) as suggested by the Authors.
