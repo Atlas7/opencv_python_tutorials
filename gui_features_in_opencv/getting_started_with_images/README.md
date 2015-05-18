@@ -33,9 +33,8 @@ Inspired by a Python code by user "Abid Rahman Kat" at [this Stackoverflow forum
 
 Simply running the code will reveal the difference between cv2.imshow (default uses BGR) versus matplotlib.pyplot (default uses RGB):
 
-|-------------------------------------------------|
 | Module      | BGR             |  RGB            |
 |-------------|-----------------|-----------------|
 | cv2         | true color      | distorted color | 
 | matplotlib  | distorted color | true color      | 
-|-------------------------------------------------|
+
