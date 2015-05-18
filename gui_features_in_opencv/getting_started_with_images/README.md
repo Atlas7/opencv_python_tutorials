@@ -38,3 +38,4 @@ Simply running the code will reveal the difference between cv2.imshow (default u
 | cv2         | true color      | distorted color | 
 | matplotlib  | distorted color | true color      | 
 
+![screenshot_cv2_vs_pyplot.png](./screenshots/screenshot_cv2_vs_pyplot.png)
