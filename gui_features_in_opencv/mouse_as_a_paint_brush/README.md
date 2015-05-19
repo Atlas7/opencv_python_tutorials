@@ -25,3 +25,27 @@ Hit the `Esc` button to exit.
 ![circle_demo_2.PNG](./screenshots/circle_demo_2.PNG)
 
 ![circle_demo_3.PNG](./screenshots/circle_demo_3.PNG)
+
+# Advanced Demo
+
+An even cooler demo. Run the code `run_advanced_demo.py`.
+
+It opens up a square black canvas (window). Hover over any point on the canvas. 
+
+Hold down mouse and draw to create square shapes.
+
+Type "m" (on keyboard) to switch to draw circle mode. Hold down mouse and move round canvas to draw.
+
+Type "m" (on keyboard) to switch back to draw square mode.
+
+Hit the `Esc` button to exit.
+
+![advanced_demo_1.PNG](./screenshots/advanced_demo_1.PNG)
+
+![advanced_demo_2.PNG](./screenshots/advanced_demo_2.PNG)
+
+![advanced_demo_3.PNG](./screenshots/advanced_demo_3.PNG)
+
+# Conclusions
+
+Here we have run a few demos relating to using the mouse and keyboard to draw circles and squares. This concept will aid our understanding in later concepts such as object tracking and image segmentation.
