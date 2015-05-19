@@ -37,9 +37,7 @@ Or hit any key to close the window.
 
 # Cautious Notes:
 
-I believe the original tutorial has some bugs in it.
-
-i.e. The following...
+In OpenCV 3.x Version, draw functions mutate `img` and also returns `img`.
 
 ```
 img = cv2.line(img,...)
@@ -49,7 +47,7 @@ img = cv2.ellipse(img,...)
 img = cv2.polylines(img,...)
 ```
 
-... should really be corrected yo:
+In OpenCV 2.x version, draw functions mutate `img` and also `none`.
 
 ```
 cv2.line(img,...)
@@ -58,12 +56,6 @@ cv2.circle(img,...)
 cv2.ellipse(img,...)
 cv2.polylines(img,...)
 ```
-
-This is due to the fact that these draw functions are mutative (against `img`) and return `None`.
-
-I originally tried to implement the tutorial as is and bump into unexpected output. After implementing the corrected version the code works fine.
-
-I will look into creating a GitHub pull request to get this corrected.
 
 # Conclusion
 
