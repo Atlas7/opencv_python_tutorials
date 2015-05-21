@@ -48,6 +48,8 @@ Blend image 1 (`.7` weight) and image 2 (`.3` weight):
 
 # Bitwise Operation
 
+The code `bitwise_operate_images.py` illustrates Bitwise Operations on images - a powerful technique to enable us to achieve things like...
+
 We have two images. 
 
 Image 1 is photo of Messi.
@@ -60,7 +62,7 @@ Image 2 is the OpenCV logo (black background).
 
 We wish to overlay the OpenCV logo (Opague) on top of the phot of Messi like this:
 
-![res.png](res.png)
+![res.png]./screenshots/res.png)
 
 (Placeholder: more descriptions to be placed here.)
 
