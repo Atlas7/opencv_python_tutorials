@@ -26,6 +26,8 @@ Add image 1 and image 2 (using `cv2.add(), a saturated operation):
 
 ![add_images.png](./screenshots/add_images.png)
 
+Notice that adding images essentially increase the color scale GBR value towards `(255, 255, 255)`. i.e. white. The more we add, the more likely we will get a "brighter / whiter" image. 
+
 ## Image Blending
 
 The code `blend_images.py` illustrates blending image 1 and image 2 together (overlaying) incorporating assigning weights.
