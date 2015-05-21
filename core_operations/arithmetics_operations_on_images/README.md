@@ -46,6 +46,24 @@ Blend image 1 (`.7` weight) and image 2 (`.3` weight):
 
 ![blend_images.png](./screenshots/blend_images.png)
 
+# Bitwise Operation
+
+We have two images. 
+
+Image 1 is photo of Messi.
+
+![messi.png](./screenshots/messi.png)
+
+Image 2 is the OpenCV logo (black background).
+
+![img2_opencv_logo_black_background.png](./screenshots/img2_opencv_logo_black_background.png)
+
+We wish to overlay the OpenCV logo (Opague) on top of the phot of Messi like this:
+
+![res.png](res.png)
+
+(Placeholder: more descriptions to be placed here.)
+
 # Conclusion
 
-Here we have run through some exercises on image addition and blending.
+Here we have run through some exercises on image addition and blending. We also performed Bitwise operation to essentially enable opague overlaying of an image over another.
