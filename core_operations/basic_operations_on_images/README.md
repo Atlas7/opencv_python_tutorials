@@ -42,3 +42,37 @@ Image after split and merge:
 Reduce the BGR red scale to 0:
 
 ![img_7](./screenshots/img_7)
+
+# Demo Making Borders for Images (Padding)
+
+Run the demo code `demo_add_border_to_image.py`.
+
+Some snapshots:
+
+Original image - no border:
+
+![border_original.png](./screenshots/border_original.png)
+
+Border Option - `cv2.BORDER_REPLICATE`:
+
+![border_replicate.png](./screenshots/border_replicate.png)
+
+Border Option - `cv2.BORDER_REFLECT`:
+
+![border_reflect.png](./screenshots/border_reflect.png)
+
+Border Option - `cv2.BORDER_REFLECT_101`:
+
+![border_reflect_101.png](./screenshots/border_reflect_101.png)
+
+Border Option - `cv2.BORDER_WRAP`:
+
+![border_wrap.png](./screenshots/border_wrap.png)
+
+Border Option - `cv2.BORDER_CONSTANT` (Blue):
+
+![border_constant_blue.png](./screenshots/border_constant_blue.png)
+
+# Conclusion
+
+Some cool examples demonstrating basic operations around accessing and manipulating an image (matrix).
