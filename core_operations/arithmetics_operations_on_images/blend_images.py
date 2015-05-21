@@ -7,7 +7,6 @@ Created on Thu May 21 17:03:32 2015
 #%%
 import numpy as np
 import cv2
-import os
 
 #%%
 # Image Blending (with weights in image 1 and image 2)
