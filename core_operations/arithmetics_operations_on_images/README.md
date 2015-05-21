@@ -12,9 +12,23 @@ Here is [a great post by Abid Rahman K](http://opencvpython.blogspot.co.uk/2012/
 
 For image processing problems, always stick to using the cv2 addition!
 
+For example, the code `add_images.py` uses the `cv2.add()` method to add two images together (saturated operation).
+
+Image 1:
+
+![img1.png](./screenshots/img1.png) 
+
+Image 2:
+
+![img2.png](./screenshots/img2.png) 
+
+Add image 1 and image 2 (using `cv2.add(), a saturated operation):
+
+![add_images.png](./screenshots/add_images.png)
+
 ## Image Blending
 
-The code `demo_iblend_images.py` illustrates blending image 1 and image 2 together (overlaying) incorporating assigning weights.
+The code `blend_images.py` illustrates blending image 1 and image 2 together (overlaying) incorporating assigning weights.
 
 Here I will be using two images of the same size (400 width by 500 height pixels). I essentially downloaded the two images from a Google search, and resized them with the Windows Paint application.
 
