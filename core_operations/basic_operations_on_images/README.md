@@ -17,31 +17,31 @@ Some screenshots:
 
 Origina image:
 
-![img_1](./screenshots/img_1)
+![img_1.png](./screenshots/img_1.png)
 
 Add a white pixel at row 100, column 150:
 
-![img_2](./screenshots/img_2)
+![img_2.png](./screenshots/img_2.png)
 
 Add a red pixel at row 100, column 150:
 
-![img_3](./screenshots/img_3)
+![img_3.png](./screenshots/img_3.png)
 
 Show the ball only:
 
-![img_4](./screenshots/img_4)
+![img_4.png](./screenshots/img_4.png)
 
 Copy and paste the ball to somewhere else:
 
-![img_5](./screenshots/img_5)
+![img_5.png](./screenshots/img_5.png)
 
 Image after split and merge:
 
-![img_6](./screenshots/img_6)
+![img_6.png](./screenshots/img_6.png)
 
 Reduce the BGR red scale to 0:
 
-![img_7](./screenshots/img_7)
+![img_7.png](./screenshots/img_7.png)
 
 # Demo Making Borders for Images (Padding)
 
