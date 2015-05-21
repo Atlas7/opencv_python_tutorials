@@ -73,3 +73,21 @@ cv2.imshow('copy and paste the ball to somewhere else',img)
 k = cv2.waitKey(0) & 0xFF
 cv2.destroyAllWindows()
 #%%
+# Splitting and Merging Image Channels
+b,g,r = cv2.split(img)
+img_split_merge = cv2.merge((b,g,r))
+print img_split_merge
+cv2.imshow('image after split and merge',img)
+k = cv2.waitKey(0) & 0xFF
+cv2.destroyAllWindows()
+#%%
+# Access all the blue pixels
+b = img[:,:,0]
+print b
+#%%
+# Change all the red pixel to white
+img[:,:,2] = 0
+cv2.imshow('reduce the BGR red scale to 0',img)
+k = cv2.waitKey(0) & 0xFF
+cv2.destroyAllWindows()
+#%%
