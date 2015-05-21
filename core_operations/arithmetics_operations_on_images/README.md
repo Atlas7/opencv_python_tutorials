@@ -10,6 +10,8 @@ There is a difference between OpenCV addition and Numpy addition. OpenCV additio
 
 Here is [a great post by Abid Rahman K](http://opencvpython.blogspot.co.uk/2012/06/difference-between-matrix-arithmetic-in.html) explaining the difference between these two additions.
 
+For image processing problems, always stick to using the cv2 addition!
+
 ## Image Blending
 
 The code `demo_iblend_images.py` illustrates blending image 1 and image 2 together (overlaying) incorporating assigning weights.
