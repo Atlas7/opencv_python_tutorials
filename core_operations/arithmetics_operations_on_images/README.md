@@ -62,7 +62,7 @@ Image 2 is the OpenCV logo (black background).
 
 We wish to overlay the OpenCV logo (Opague) on top of the phot of Messi like this:
 
-![res.png]./screenshots/res.png)
+![res.png](./screenshots/res.png)
 
 (Placeholder: more descriptions to be placed here.)
 
