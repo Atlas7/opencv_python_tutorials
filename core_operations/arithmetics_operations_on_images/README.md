@@ -46,6 +46,43 @@ Blend image 1 (`.7` weight) and image 2 (`.3` weight):
 
 ![blend_images.png](./screenshots/blend_images.png)
 
+# Image Thresholding
+
+Objective of this section is to learn more about thresholding - in particular the 5 thresholding options in OpenCV.
+
+The code `image_thresholding.py` code illustrates this.
+
+See these articles for more info:
+
+- [OpenCV-Python - Image Thresholding Blog by Abid Rahman K](http://opencvpython.blogspot.co.uk/2013/05/thresholding.html)
+- [The 5 Image Thresholding Options](http://docs.opencv.org/doc/tutorials/imgproc/threshold/threshold.html)
+
+Some screenshots:
+
+Original Grayscale image:
+
+![img_thresholding_grayscale.png](./screenshots/img_thresholding_grayscale.png)
+
+THRESH_BINARY:
+
+![img_thresholding_THRESH_BINARY.png](./screenshots/img_thresholding_THRESH_BINARY.png)
+
+THRESH_BINARY_INV:
+
+![img_thresholding_THRESH_BINARY_INV.png](./screenshots/img_thresholding_THRESH_BINARY_INV.png)
+
+THRESH_TRUNC:
+
+![img_thresholding_THRESH_TRUNC.png](./screenshots/img_thresholding_THRESH_TRUNC.png)
+
+THRESH_TO_ZERO:
+
+![img_thresholding_THRESH_TO_ZERO.png](./screenshots/img_thresholding_THRESH_TO_ZERO.png)
+
+THRESH_TO_ZERO_INV:
+
+![img_thresholding_THRESH_TO_ZERO_INV.png](./screenshots/img_thresholding_THRESH_TO_ZERO_INV.png)
+
 # Bitwise Operation
 
 The code `bitwise_operate_images.py` illustrates Bitwise Operations on images - a powerful technique to enable us to achieve things like...
