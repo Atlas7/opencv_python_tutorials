@@ -3,6 +3,8 @@
 Created on Thu May 21 23:10:26 2015
 
 @author: Johnny
+Inspired by:
+https://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_core/py_image_arithmetics/py_image_arithmetics.html#image-arithmetics
 """
 
 #%%
