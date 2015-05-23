@@ -71,7 +71,7 @@ cv2.imshow("dst", dst)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 #%%
-img1[0:rows, 0:cols ] = dst
+img1[0:rows, 0:cols] = dst
 cv2.imshow('res',img1)
 cv2.waitKey(0)
 cv2.destroyAllWindows()

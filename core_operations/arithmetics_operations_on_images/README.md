@@ -101,7 +101,74 @@ We wish to overlay the OpenCV logo (Opague) on top of the phot of Messi like thi
 
 ![res.png](./screenshots/res.png)
 
-(Placeholder: more descriptions to be placed here.)
+Some key facts to know:
+
+- In a 256 (8 bits) true color world, intensity ranges from 0 (000000) to 255 (11111111).
+- So, see the decimal intensity 255 (white) as binary 1 (True), and decimal intensity 0 as binary 0 (False).
+- i.e. if we manage to make an image black and white only (i.e. contains only intensity of 0 and 1), we can use that as a mask for bitwise and/or/not operations.
+
+Explain the process:
+
+```python
+img1 = cv2.imread('messi_717px_by_483px.png')
+```
+
+![img1.png](./screenshots/img1)
+
+```python
+img2 = cv2.imread('opencv_logo_black_background.png')
+```
+
+![img2.png](./screenshots/img2.png)
+
+```python
+rows,cols,channels = img2.shape
+roi = img1[0:rows, 0:cols ]
+```
+
+![roi].png(./screenshots/roi.png)
+
+```python
+img2gray = cv2.cvtColor(img2,cv2.COLOR_BGR2GRAY)
+```
+
+![img2gray.png](./screenshots/img2gray.png)
+
+```python
+ret, mask = cv2.threshold(img2gray, 10, 255, cv2.THRESH_BINARY)
+```
+
+![mask.png](./screenshots/mask.png)
+
+```python
+mask_inv = cv2.bitwise_not(mask)
+```
+
+![mask_inv.png](./screenshots/mask_inv.png)
+
+```python
+img1_bg = cv2.bitwise_and(roi,roi,mask = mask_inv)
+```
+
+![img1_bg.png](./screenshots/img1_bg.png)
+
+```python
+img2_fg = cv2.bitwise_and(img2,img2,mask = mask)
+```
+
+![img2_fg.png](./screenshots/img2_fg.png)
+
+```python
+dst = cv2.add(img1_bg,img2_fg)
+```
+
+![dst.png](./screenshots/dst.png)
+
+```python
+img1[0:rows, 0:cols ] = dst
+```
+
+![res.png](./screenshots/res.png)
 
 # Conclusion
 
