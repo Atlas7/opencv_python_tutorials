@@ -14,13 +14,13 @@ For image processing problems, always stick to using the cv2 addition!
 
 For example, the code `add_images.py` uses the `cv2.add()` method to add two images together (saturated operation).
 
-Image 1:
+Image 1 - Iron Man:
 
-![img1.png](./screenshots/img1.png) 
+![ironman.png](./screenshots/ironman.png) 
 
-Image 2:
+Image 2 - Tony Stark:
 
-![img2.png](./screenshots/img2.png) 
+![tony_stark.png](./screenshots/tony_stark.png) 
 
 Add image 1 and image 2 (using `cv2.add(), a saturated operation):
 
@@ -34,13 +34,13 @@ The code `blend_images.py` illustrates blending image 1 and image 2 together (ov
 
 Here I will be using two images of the same size (400 width by 500 height pixels). I essentially downloaded the two images from a Google search, and resized them with the Windows Paint application.
 
-Image 1:
+Image 1 - Iron Man:
 
-![img1.png](./screenshots/img1.png) 
+![ironman.png](./screenshots/ironman.png) 
 
-Image 2:
+Image 2 - Tony Stark:
 
-![img2.png](./screenshots/img2.png) 
+![tony_stark.png](./screenshots/tony_stark.png) 
 
 Blend image 1 (`.7` weight) and image 2 (`.3` weight):
 
@@ -113,13 +113,13 @@ Explain the process:
 img1 = cv2.imread('messi_717px_by_483px.png')
 ```
 
-![img1.png](./screenshots/img1)
+![messi.png](./screenshots/messi.png)
 
 ```python
 img2 = cv2.imread('opencv_logo_black_background.png')
 ```
 
-![img2.png](./screenshots/img2.png)
+![img2_opencv_logo_black_background.png](./screenshots/img2_opencv_logo_black_background.png)
 
 ```python
 rows,cols,channels = img2.shape
