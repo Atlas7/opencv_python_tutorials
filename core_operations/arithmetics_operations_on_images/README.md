@@ -126,7 +126,7 @@ rows,cols,channels = img2.shape
 roi = img1[0:rows, 0:cols ]
 ```
 
-![roi].png(./screenshots/roi.png)
+![roi.png](./screenshots/roi.png)
 
 ```python
 img2gray = cv2.cvtColor(img2,cv2.COLOR_BGR2GRAY)
