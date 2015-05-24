@@ -44,7 +44,7 @@ Run code `affine_transform_image.py`.
 
 Before vs after
 
-![affine_transform_image.png](./screenshots/affine_transform_image.png)
+![affine_transform.png](./screenshots/affine_transform.png)
 
 
 # Perspective Transform
@@ -53,7 +53,7 @@ Run code `perspective_transform_image.py`.
 
 Before vs after
 
-![perspective_transform_image.png](./screenshots/perspective_transform_image.png)
+![perspective_transform.png](./screenshots/perspective_transform.png)
 
 # Conclusion
 
