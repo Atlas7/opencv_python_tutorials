@@ -12,7 +12,7 @@ from matplotlib import pyplot as plt
 #%%
 img_bgr = cv2.imread('messi.jpg')
 img_rgb = cv2.cvtColor(img_bgr, cv2.COLOR_BGR2RGB);
-rows,cols,ch = img.shape
+rows,cols,ch = img_rgb.shape
 print "(x, y) : " + str((cols, rows))
 
 #%%
