@@ -13,3 +13,7 @@ Even though the OpenCV 2.x version is very mature and well documented, the [Open
 When I first started the tutorial I used OpenCV 2.x - but when I progressed I realized the need to try out OpenCV 3.x (So what the tutorial produces mataches to what I produce locally on my machine).
 
 To prevent having a mix of OpenCV 2.x and 3.x codes, I shall stick to OpenCV 3.x for the duration of the [OpenCV-Python Tutorials](https://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_tutorials.html) as suggested by the Authors.
+
+# Get OpenCV working in Anaconda
+
+This [Stackoverflow Forum](http://stackoverflow.com/questions/23119413/how-to-install-python-opencv-through-conda/30281466#30281466) will provide some top tips and hints on getting OpenCV (2.x and/or 3/x) working with Python 2.x Anaconda.
