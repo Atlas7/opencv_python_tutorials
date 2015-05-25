@@ -38,6 +38,12 @@ Screenshots:
 
 Note: I obtain the input image `davemark_sudoku.jpg` from [this psmag.com blog post](http://www.psmag.com/nature-and-technology/whispering-town-square-can-twitter-provide-escape-noise-90493) - via a simple Google image search.
 
+# How Otsu Binarization Works
+
+Code: `demo_find_otsu_threshold_value.py`
+
+The code shows how the OpenCV Otsu Binarization works by comparing the theortical value with the actual OpenCV Otsu Binarization computed value.
+
 # Conclusion
 
 Here we have successfully executed some demos on image thresholdings.
