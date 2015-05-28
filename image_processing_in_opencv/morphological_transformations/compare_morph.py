@@ -12,7 +12,10 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
-kernel = np.ones((5, 5), np.uint8)
+# numpy kernal creation method: 
+# kernel = np.ones((5, 5), np.uint8)
+# cv2 kernal creation method:
+kernal = cv2.getStructuringElement(cv2.MORPH_RECT,(5,5))
 
 # Note: the input is a grayscale image
 img = cv2.imread('smily_original_noisy.png', 0)

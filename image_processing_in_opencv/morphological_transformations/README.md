@@ -40,6 +40,37 @@ Here is the output (see `compare_morph.py` for the complete code):
 
 This is just a basic illustration. To truely understand noise and learn how to remove / extract them, we believe more sophisticated methods may be required.
 
+# Structuring Element
+
+These two methods are equivalent in the creation of a 5-by-5 (all ones) kernal:
+
+`cv2` method:
+
+```
+In [32]: cv2.getStructuringElement(cv2.MORPH_RECT,(5,5))
+Out[32]: 
+array([[1, 1, 1, 1, 1],
+       [1, 1, 1, 1, 1],
+       [1, 1, 1, 1, 1],
+       [1, 1, 1, 1, 1],
+       [1, 1, 1, 1, 1]], dtype=uint8)
+```
+
+`numpy` Method:
+
+```
+In [33]: np.ones((5, 5), np.uint8)
+Out[33]: 
+array([[1, 1, 1, 1, 1],
+       [1, 1, 1, 1, 1],
+       [1, 1, 1, 1, 1],
+       [1, 1, 1, 1, 1],
+       [1, 1, 1, 1, 1]], dtype=uint8)
+```
+
+In the code `compare_morph.py` I have used the cv2 method but also have included the numpy method as a comment - feel free to try out both. You shall get the same result regardless.
+
+
 # Conclusion
 
 Here we have presented a simple comparison of the various morphological transformations and understand their feature and potential usage / purpose.
