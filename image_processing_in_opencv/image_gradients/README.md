@@ -111,6 +111,8 @@ abs_scharry64f = np.absolute(scharry64f)
 scharry64f_8u = np.uint8(abs_scharry64f)
 ```
 
+![compare_methods_at_depth_64f_sudoku.png](./screenshots/compare_methods_at_depth_64f_sudoku.png)
+
 # Conclusion
 
 The example we have used correspond to 3-by-3 kernels. For Apple-to-apple comparison purposes.
