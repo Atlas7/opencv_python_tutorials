@@ -74,6 +74,11 @@ scharry = cv2.Sobel(img, cv2.CV_8U, 0, 1, ksize=-1)
 
 ![compare_methods_at_depth_8u_sudoku.png](./screenshots/compare_methods_at_depth_8u_sudoku.png)
 
+Notes:
+
+- for the Sobel / Scharr methods, the negative slopes are not picked up (from white to black). Only the slopes from black to white are picked up. Reason for this is explained previously under the section "Sobel-x - 8U vs 64F" (which also apply to Sobel in the y direction as well). For instance, the number "1" in the sudoku appears only as a line (the right edge that goes from black to white).
+- Laplacian method seems ok. e.g. the letter 1 is displayed ok.
+
 # Compare Methods at Depth 64F
 
 The full code: `compare_methods_at_depth_64f.py`
@@ -112,6 +117,11 @@ scharry64f_8u = np.uint8(abs_scharry64f)
 ```
 
 ![compare_methods_at_depth_64f_sudoku.png](./screenshots/compare_methods_at_depth_64f_sudoku.png)
+
+Notes:
+
+- Both positive and negative slopes are now picked up. For instance, the number "1" in the sudoku appears as a line (the left edge that goes from white to black - the negative slope) plus another line (the right edge that goes from black to white - the positive slope).
+- Laplacian method seems ok. e.g. the letter 1 is displayed ok.
 
 # Conclusion
 
