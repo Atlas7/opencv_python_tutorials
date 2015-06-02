@@ -16,6 +16,8 @@ Demo output:
 
 The challenge: write a small application to find the Canny edge detection whose threshold values can be varied using two trackbars. This way, you can understand the effect of threshold values.
 
+## Exercise 1 Solution
+
 This is a possible solution: `trackbar_canny.py`.
 
 Run the code and it will display the "original" and "canny" images side-by-side.
