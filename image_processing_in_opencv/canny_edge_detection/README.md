@@ -10,7 +10,7 @@ This is the basic code that illustrate the `cv2.Canny()` Canny Edge Detection me
 
 Demo output:
 
-![simple_canny_1.png](./screenshots/simple_canny_1.png)
+![simple_canny.png](./screenshots/simple_canny.png)
 
 # Exercise 1: Enhanced Canny Edge Detection Program with Threshold Trackbars
 
@@ -35,3 +35,5 @@ Demo:
 ![trackbar_canny_6.png](./screenshots/trackbar_canny_6.png)
 
 ![trackbar_canny_7.png](./screenshots/trackbar_canny_7.png)
+
+When done playing, hit the "Esc" key to quit.
