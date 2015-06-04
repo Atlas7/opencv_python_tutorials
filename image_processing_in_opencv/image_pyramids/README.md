@@ -1,6 +1,6 @@
 # Image Pyramids
 
-See [OpenCV-Python Tutorials - Image Pyramids] for the original tutorials.
+See [OpenCV-Python Tutorials - Image Pyramids](https://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_imgproc/py_pyramids/py_pyramids.html#pyramids) for the original tutorials.
 
 Image Pyramid as a picture:
 
