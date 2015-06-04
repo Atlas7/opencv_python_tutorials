@@ -2,6 +2,10 @@
 
 See [OpenCV-Python Tutorials - Image Pyramids] for the original tutorials.
 
+Image Pyramid as a picture:
+
+![image_pyramid.png](./screenshots/image_pyramid.png)
+
 # cv2.pyrDown and cv2.pyrUp
 
 See the [official OpenCV documentation on cv2.pyrDown and cv2.pyrUp](http://docs.opencv.org/modules/imgproc/doc/filtering.html) for more info.
@@ -11,7 +15,7 @@ See the [official OpenCV documentation on cv2.pyrDown and cv2.pyrUp](http://docs
 
 ## Demo with Grayscale Image
 
-This demo code `pyramids.py` illustrate the use of `cv2.pyrDown` and `cv2.pyrUp`.
+This demo code `pyramid.py` illustrate the use of `cv2.pyrDown` and `cv2.pyrUp`.
 
 Illustration:
 
@@ -30,7 +34,7 @@ Output:
 
 ## Demo with Edged Image
 
-This demo code `pyramids_edged_image.py` essentially is the same as the above `pyramid.py`. I merely replace the original grayscale image with an edged image, created using the Cunny Edge Detector, as mentioned in [the OpenCV-Python Tutorials - Cunny Edge Detection](https://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_imgproc/py_canny/py_canny.html#canny) chapter.
+This demo code `pyramid_edged_image.py` essentially is the same as the above `pyramid.py`. I merely replace the original grayscale image with an edged image, created using the Cunny Edge Detector, as mentioned in [the OpenCV-Python Tutorials - Cunny Edge Detection](https://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_imgproc/py_canny/py_canny.html#canny) chapter.
 
 i.e. this one line is inserted to the code:
 
