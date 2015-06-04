@@ -9,6 +9,8 @@ See the [official OpenCV documentation on cv2.pyrDown and cv2.pyrUp](http://docs
 - `cv2.pyrDown`: Blurs an image and downsamples (half the size) it.
 - `cv2.pyrUp`: Upsamples (double the size) an image and then blurs it.
 
+## Demo with Grayscale Image
+
 This demo code `pyramids.py` illustrate the use of `cv2.pyrDown` and `cv2.pyrUp`.
 
 Illustration:
@@ -25,3 +27,19 @@ Illustration:
 Output:
 
 ![image_pyramid_down3_up3.png](./screenshots/image_pyramid_down3_up3.png)
+
+## Demo with Edged Image
+
+This demo code `pyramids_edged_image.py` essentially is the same as the above `pyramid.py`. I merely replace the original grayscale image with an edged image, created using the Cunny Edge Detector, as mentioned in [the OpenCV-Python Tutorials - Cunny Edge Detection](https://opencv-python-tutroals.readthedocs.org/en/latest/py_tutorials/py_imgproc/py_canny/py_canny.html#canny) chapter.
+
+i.e. this one line is inserted to the code:
+
+```.python
+edges = cv2.Canny(img, 100, 200)
+```
+
+(and we replace the original image with this one)
+
+This is the output:
+
+![image_pyramid_down3_up3_edged_image.png](./screenshots/image_pyramid_down3_up3_edged_image.png)
