@@ -69,13 +69,13 @@ I've compiled the explaination of the blending process by compiling the material
 
 Laplacian pyramid is an algorithm using Gaussian to blend the image while keeping the significant feature in the mean time. It downsizes the image into different levels (sizes) with Gaussian. Later it expands the Gaussian in to the lower lever and subtracts from the image in that lever to acquire the Laplacian image.
 
-[pyramid_steps_1.jpg](./screenshots/pyramid_steps_1.jpg)
+![pyramid_steps_1.jpg](./screenshots/pyramid_steps_1.jpg)
 
 After generating Laplacian pyramids for the overlap images A and B, we combine the two images in different Laplacian levels by combining partial images from each of them.
 
-[pyramid_steps_2.jpg](./screenshots/pyramid_steps_1.jpg)
+![pyramid_steps_2.jpg](./screenshots/pyramid_steps_1.jpg)
 
-[pyramid_steps_3.jpg](./screenshots/pyramid_steps_1.jpg)
+![pyramid_steps_3.jpg](./screenshots/pyramid_steps_1.jpg)
 
 Afterward, we expand the LS from the top level (N) to the next level (N-1) and add it to the original Laplacian image in the corresponding layer to generate the latest Laplacian image in the corresponding layer. We repeat this step until reaching ground level and the final result will be the blending image
 
