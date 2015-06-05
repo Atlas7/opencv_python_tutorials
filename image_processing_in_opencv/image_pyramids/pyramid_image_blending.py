@@ -18,7 +18,7 @@ import cv2
 import numpy as np
 
 #%% set pyramid level
-n = 3
+n = 6
 
 #%%
 A = cv2.imread('apple.jpg')

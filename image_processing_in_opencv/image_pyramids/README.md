@@ -55,15 +55,9 @@ This is the output:
 
 The code `pyramid_image_blending.py` illustrate blending two images (left and right) together, using a combination of Gussian and Laplacian Pyramids.
 
-## The Output
-
-The output produced by the code:
-
-![pyramid_blending.png](./screenshots/pyramid_blending.png)
-
 ## How does the blending process work?
 
-I've compiled the explaination of the blending process by compiling the materials taken from [this page by University of Wisconsin-Madison](http://pages.cs.wisc.edu/~csverma/CS766_09/ImageMosaic/imagemosaic.html) and the [OpenCV-Python Tutorials - Image Pyramids). All credits go to these guys.
+I've compiled the explanation of the blending process by compiling the materials taken from [this page by University of Wisconsin-Madison](http://pages.cs.wisc.edu/~csverma/CS766_09/ImageMosaic/imagemosaic.html) and the [OpenCV-Python Tutorials - Image Pyramids). All credits go to these guys.
 
 ---
 
@@ -78,6 +72,12 @@ After generating Laplacian pyramids for the overlap images A and B, we combine t
 ![pyramid_steps_3.jpg](./screenshots/pyramid_steps_3.jpg)
 
 Afterward, we expand the LS from the top level (N) to the next level (N-1) and add it to the original Laplacian image in the corresponding layer to generate the latest Laplacian image in the corresponding layer. We repeat this step until reaching ground level and the final result will be the blending image
+
+## The Output
+
+The output produced by the code (with N set to 6):
+
+![pyramid_blending.png](./screenshots/pyramid_blending.png)
 
 ---
 
