@@ -34,21 +34,21 @@ cv2.createTrackbar('th', 'contourer', 0, 255, nothing)
 # Infinite loop until we hit the escape key on keyboard
 while(1):
     
+    out_image = img.copy()
     # get current positions of the trackbars
     s = cv2.getTrackbarPos(switch, 'contourer')
     t = cv2.getTrackbarPos('th', 'contourer')
 
     # re-generate image based on trackbar values
     if s == 0:
-        out_image = img
-    else:      
+        """ do nothing """
+    else:             
         ret, thresh = cv2.threshold(imgray, t, 255, cv2.THRESH_BINARY)
-        image, contours, hierarchy = cv2.findContours(thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
+        image, contours, hierarchy = cv2.findContours(thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)       
         out_image = cv2.drawContours(out_image, contours, -1, (0, 255, 0), 1)
         
     cv2.imshow("contourer", out_image)
-    k = cv2.waitKey(1) & 0xFF
-    
+    k = cv2.waitKey(1) & 0xFF    
     if k == 27:   # hit escape to quit
         break
     
