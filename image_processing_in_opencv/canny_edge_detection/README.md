@@ -22,7 +22,11 @@ This is a possible solution: `trackbar_canny.py`.
 
 Run the code and it will display the "original" and "canny" images side-by-side.
 
-Demo:
+Youtube Demo:
+
+[![youtube_video_link](./screenshots/youtube_thumb.png)](https://youtu.be/A0OFX6W1AcA)
+
+Snapshot Demo:
 
 ![trackbar_canny_1.png](./screenshots/trackbar_canny_1.png)
 
