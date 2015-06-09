@@ -14,6 +14,8 @@ I've taken the liberty to enhance the demo code and incorporate a trackbar. So w
 
 The code `trackbar_countours.py` illustrate this.
 
+[![Alt text for your video](./screenshots/youtube_thumb.png)](http://www.youtube.com/watch?v=iq996xGFfhI)
+
 ![track_1.png](./screenshots/track_1.png)
 
 ![track_2.png](./screenshots/track_2.png)
