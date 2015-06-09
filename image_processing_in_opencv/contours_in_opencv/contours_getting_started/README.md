@@ -6,7 +6,7 @@ See [OpenCV-Python - Contours: Getting Started](https://opencv-python-tutroals.r
 
 The code `demo_find_countours.py` illustrate the tutorial demo - which "hardcode" a threshold value between 0 and 255. This simple demo uses a threshold value of 170. Running the code gives the following:
 
-![demo_output.png](./screenshot/demo_output.png)
+![demo_output.png](./screenshots/demo_output.png)
 
 # Bonus Exercise: Adjustable Threshold with Trackbar
 
@@ -14,26 +14,26 @@ I've taken the liberty to enhance the demo code and incorporate a trackbar. So w
 
 The code `trackbar_countours.py` illustrate this.
 
-![track_1.png](./screenshot/track_1.png)
+![track_1.png](./screenshots/track_1.png)
 
-![track_2.png](./screenshot/track_2.png)
+![track_2.png](./screenshots/track_2.png)
 
-![track_3.png](./screenshot/track_3.png)
+![track_3.png](./screenshots/track_3.png)
 
-![track_4.png](./screenshot/track_4.png)
+![track_4.png](./screenshots/track_4.png)
 
-![track_5.png](./screenshot/track_5.png)
+![track_5.png](./screenshots/track_5.png)
 
-![track_6.png](./screenshot/track_6.png)
+![track_6.png](./screenshots/track_6.png)
 
-![track_7.png](./screenshot/track_7.png)
+![track_7.png](./screenshots/track_7.png)
 
-![track_8.png](./screenshot/track_8.png)
+![track_8.png](./screenshots/track_8.png)
 
-![track_9.png](./screenshot/track_9.png)
+![track_9.png](./screenshots/track_9.png)
 
-![track_10.png](./screenshot/track_10.png)
+![track_10.png](./screenshots/track_10.png)
 
-![track_11.png](./screenshot/track_11.png)
+![track_11.png](./screenshots/track_11.png)
 
 When done, hit the "Esc" key on the keyboard to quit.
