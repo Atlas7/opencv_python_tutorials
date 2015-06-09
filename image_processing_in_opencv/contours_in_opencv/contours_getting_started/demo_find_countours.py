@@ -12,10 +12,12 @@ import cv2
 
 
 img = cv2.imread('tom_cruise.jpg')
+img_bak = img.copy()
+
 imgray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 ret, thresh = cv2.threshold(imgray, 170, 255, cv2.THRESH_BINARY)
 image, contours, hierarchy = cv2.findContours(thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
-img_with_contours = cv2.drawContours(img, contours, -1, (0, 255, 0), 1)
+img = cv2.drawContours(img, contours, -1, (0, 255, 0), 1)
 cv2.imshow("image", image)
 cv2.imshow("img", img)
 cv2.waitKey()
