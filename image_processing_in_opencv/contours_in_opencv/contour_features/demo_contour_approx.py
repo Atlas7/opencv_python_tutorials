@@ -49,9 +49,8 @@ cv2.waitKey()
 cv2.imwrite("img_contours2.jpg", img_contours2)
 cv2.destroyAllWindows()
 #%%
-for i in range(len(contours)):
+for h, cnt in enumerate(contours):
     # Pick a contour segment in the definition of arch length
-    cnt = contours[i]
     perimeter = cv2.arcLength(cnt, True)
     print perimeter
     
