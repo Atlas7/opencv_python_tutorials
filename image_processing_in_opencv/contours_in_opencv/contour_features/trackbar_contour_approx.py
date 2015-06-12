@@ -15,7 +15,7 @@ def nothing(x):
     pass
 
 # Read image
-img = cv2.imread('plate.jpg')
+img = cv2.imread('hand.png')
 img_gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 # Prepare a blank canvas to draw on...
