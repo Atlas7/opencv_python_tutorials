@@ -38,6 +38,9 @@ sliding_eps_factor = 'Epsilon Factor'
 eps_scaling = 1000
 cv2.createTrackbar(sliding_eps_factor, control_panel, 100, eps_scaling, nothing)
 
+# add this dummy image to control panel so it become wider
+img_control = np.zeros((10, 1000), np.uint8)
+
 # Infinite loop until we hit the escape key on keyboard
 while(1):
 
@@ -76,6 +79,7 @@ while(1):
         cv2.drawContours(img_unified, approx, -1, (0, 0, 255), 3)  # points
       
     # Display in windows...
+    cv2.imshow(control_panel, img_control)
     cv2.imshow("img", img)
     cv2.imshow("img_gray", img_gray)
     cv2.imshow("img_thresh", img_thresh)
