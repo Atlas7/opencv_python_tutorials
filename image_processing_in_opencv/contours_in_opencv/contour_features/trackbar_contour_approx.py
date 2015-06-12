@@ -31,7 +31,12 @@ cv2.createTrackbar(sliding_switch, control_panel, 0, 1, nothing)
 
 # add threshold trackbar to control panel
 sliding_threshold = 'Threshold'
-cv2.createTrackbar(sliding_threshold, control_panel, 0, 254, nothing)
+cv2.createTrackbar(sliding_threshold, control_panel, 50, 254, nothing)
+
+# add epsilon_factor trackbar to control panel
+sliding_eps_factor = 'Epsilon Factor'
+eps_scaling = 1000
+cv2.createTrackbar(sliding_eps_factor, control_panel, 100, eps_scaling, nothing)
 
 # Infinite loop until we hit the escape key on keyboard
 while(1):
@@ -39,7 +44,8 @@ while(1):
     # get current positions of the trackbars
     value_switch = cv2.getTrackbarPos(sliding_switch, control_panel)
     value_threshold = cv2.getTrackbarPos(sliding_threshold, control_panel) 
-
+    value_eps_factor = cv2.getTrackbarPos(sliding_eps_factor, control_panel) 
+    
     # prepare blank canvases
     img_thresh = img_blank.copy()       
     img_approx_points = img_blank.copy()
@@ -55,9 +61,8 @@ while(1):
         cnt = contours[0]  #  note that in this example there is only one contour
         perimeter = cv2.arcLength(cnt, True)
         
-        # configure approx factor (with repect to perimeter) - the lower, the more accurate
-        factor = 0.1  # vary this to see the effect
-        epsilon = factor*perimeter
+        factor = (value_eps_factor*1.) / (eps_scaling*1.)
+        epsilon = factor * perimeter
         approx = cv2.approxPolyDP(cnt, epsilon, True)
         
         # Draw all contour points only        
