@@ -49,7 +49,7 @@ while(1):
         """ re-plot contours """     
         ret, thresh = cv2.threshold(imgray, t, 255, cv2.THRESH_BINARY)
         image, contours, hierarchy = cv2.findContours(thresh, cv2.RETR_TREE, cv2.CHAIN_APPROX_SIMPLE)
-        out_image = cv2.drawContours(out_image, contours, -1, (0, 255, 0), 1)
+        out_image = cv2.drawContours(out_image, contours, -1, (0, 255, 0), 1, CV_AA)
 
     cv2.imshow(window_name, out_image)
     k = cv2.waitKey(1) & 0xFF
