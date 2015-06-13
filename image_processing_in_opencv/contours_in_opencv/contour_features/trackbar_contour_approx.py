@@ -31,7 +31,7 @@ eps_scaling = 1000
 cv2.createTrackbar(sliding_eps_factor, control_panel, 100, eps_scaling, nothing)
 
 # add this dummy image to control panel so it become wider
-img_control = np.zeros((20, 300), np.uint8)
+img_control = np.zeros((20, 900), np.uint8)
 
 # Infinite loop until we hit the escape key on keyboard
 while(1):
