@@ -8,7 +8,7 @@ The code `demo_area.py` illustrate computation of the internal area bounded by a
 
 Sample Image:
 
-![blue1.png](./blue1.png)
+![blue1.png](./screenshots/blue1.png)
 
 Computed area (in pixels): `28329.0`
 
@@ -18,7 +18,7 @@ The code `demo_moments.py` illustrate computation of the internal area bounded b
 
 Sample Image:
 
-![blue1.png](./blue1.png)
+![blue1.png](./screenshots/blue1.png)
 
 Computed moments:
 
@@ -28,13 +28,41 @@ Computed moments:
 
 # Contour Perimeter
 
+The code `demo_perimeter.py` illustrate computation of a contour perimeter.
+
 Sample Image:
 
-![blue1.png](./blue1.png)
+![blue1.png](./screenshots/blue1.png)
 
 Computed perimeter (in pixels): `631.126977205`
 
 # Contour Approximation
+
+The code `demo_contour_approx.py` illustrate computation of approximated contour points at varying epsilon factor (i.e. proportion of perimeter). This is essentially the maximum distance of approximated contour from the actual object boundary line allowable - the smaller the epsilon factor, the more accurate the contour points (but more costly - as more points are required).
+
+Sample Image:
+
+![blue0.png](./screenshots/blue0.png)
+
+Output at Epsilon Factor `0.5`:
+
+![approx_plate_contour_eps_0p5.png](./screenshots/approx_plate_contour_eps_0p5.png)
+
+Output at Epsilon Factor `0.1`:
+
+![approx_plate_contour_eps_0p1.png](./screenshots/approx_plate_contour_eps_0p1.png)
+
+Output at Epsilon Factor `0.05`:
+
+![approx_plate_contour_eps_0p05.png](./screenshots/approx_plate_contour_eps_0p05.png)
+
+Output at Epsilon Factor `0.01`:
+
+![approx_plate_contour_eps_0p01.png](./screenshots/approx_plate_contour_eps_0p01.png)
+
+Output at Epsilon Factor `0.001`:
+
+![approx_plate_contour_eps_0p001.png](./screenshots/approx_plate_contour_eps_0p001.png)
 
 # Contour Convexity (Hull)
 
