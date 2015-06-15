@@ -4,9 +4,35 @@ See [OpenCV-Python - Contour Features](https://opencv-python-tutroals.readthedoc
 
 # Area bounded by Contour
 
+The code `demo_area.py` illustrate computation of the internal area bounded by a contour.
+
+Sample Image:
+
+![blue1.png](./blue1.png)
+
+Computed area (in pixels): `28329.0`
+
 # Moments
 
+The code `demo_moments.py` illustrate computation of the internal area bounded by a contour.
+
+Sample Image:
+
+![blue1.png](./blue1.png)
+
+Computed moments:
+
+```
+{'mu02': 61222871.79252696, 'mu03': -40137.822982788086, 'm11': 650567591.9166666, 'nu02': 0.07628711803059755, 'm12': 106985566150.75, 'mu21': 50080.6704750061, 'mu20': 66620763.09886503, 'nu20': 0.08301319211282009, 'm30': 132152169588.75, 'nu21': 3.707592743768182e-07, 'mu11': 1205.5144815444946, 'mu12': -143020.32474708557, 'nu11': 1.5021383814341916e-06, 'nu12': -1.058813936024084e-06, 'm02': 699019932.8333333, 'm03': 123257942828.5, 'm00': 28329.0, 'm01': 4250665.0, 'mu30': 159372.7953338623, 'nu30': 1.1798752171833967e-06, 'nu03': -2.9714997788599144e-07, 'm10': 4335767.5, 'm20': 730212129.3333333, 'm21': 109566134107.41667}
+```
+
 # Contour Perimeter
+
+Sample Image:
+
+![blue1.png](./blue1.png)
+
+Computed perimeter (in pixels): `631.126977205`
 
 # Contour Approximation
 
