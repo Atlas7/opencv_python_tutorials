@@ -16,7 +16,6 @@ img = cv2.imread('blue1.png', 0)
 ret, thresh = cv2.threshold(img, 0, 255, 0)
 mask = thresh.copy()
 #%%
-#image, contours, hierarchy = cv2.findContours(thresh, 1, 2)
 thresh, contours, hierarchy = cv2.findContours(thresh, 1, 2)
 #%%
 cv2.imshow("img", img)
