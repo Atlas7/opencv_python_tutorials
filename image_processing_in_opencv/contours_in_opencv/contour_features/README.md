@@ -46,23 +46,23 @@ Sample Image:
 
 Output at Epsilon Factor `0.5`:
 
-![approx_plate_contour_epsi_0p5.png](./screenshots/approx_plate_contour_eps_0p5.png)
+![approx_plate_contour_epsi_0p5.png](./screenshots/approx_plate_contour_epsi_0p5.png)
 
 Output at Epsilon Factor `0.1`:
 
-![approx_plate_contour_epsi_0p1.png](./screenshots/approx_plate_contour_eps_0p1.png)
+![approx_plate_contour_epsi_0p1.png](./screenshots/approx_plate_contour_epsi_0p1.png)
 
 Output at Epsilon Factor `0.05`:
 
-![approx_plate_contour_epsi_0p05.png](./screenshots/approx_plate_contour_eps_0p05.png)
+![approx_plate_contour_epsi_0p05.png](./screenshots/approx_plate_contour_epsi_0p05.png)
 
 Output at Epsilon Factor `0.01`:
 
-![approx_plate_contour_epsi_0p01.png](./screenshots/approx_plate_contour_eps_0p01.png)
+![approx_plate_contour_epsi_0p01.png](./screenshots/approx_plate_contour_epsi_0p01.png)
 
 Output at Epsilon Factor `0.001`:
 
-![approx_plate_contour_epsi_0p001.png](./screenshots/approx_plate_contour_eps_0p001.png)
+![approx_plate_contour_epsi_0p001.png](./screenshots/approx_plate_contour_epsi_0p001.png)
 
 # Contour Convexity (Hull)
 
