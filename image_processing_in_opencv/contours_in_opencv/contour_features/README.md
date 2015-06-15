@@ -66,4 +66,26 @@ Output at Epsilon Factor `0.001`:
 
 # Contour Convexity (Hull)
 
+(work in progress...)
+
 # Bonus: Trackbar Contour Approximation App
+
+The code: `trackbar_contour_approx.py`.
+
+This is my attempt to enhance the Contour Approximation Program (See the Contour Approximation Section above) by adding a trackbar corresponding to the epsilon factor.
+
+Due to the fact that trackbar takes on integer values only, if we are to vary at decimal levels (e.g. 0.001, 0.01, 0.1, etc.), I've figured that if I have a step internally within the code that divide integer trackbar by some sort of scaling factor, say 1000. For example, Say on the trackbar I have an integer value of 5, to convert that to 0.005, I would require a scaling factor of 1000. i.e. `5 / 1000 = 0.005`.
+
+Some snaoshots:
+
+![tb_approx_1.png](./screenshots/tb_approx_1.png)
+
+![tb_approx_2.png](./screenshots/tb_approx_2.png)
+
+![tb_approx_3.png](./screenshots/tb_approx_3.png)
+
+![tb_approx_4.png](./screenshots/tb_approx_4.png)
+
+![tb_approx_5.png](./screenshots/tb_approx_5.png)
+
+![tb_approx_6.png](./screenshots/tb_approx_6.png)
