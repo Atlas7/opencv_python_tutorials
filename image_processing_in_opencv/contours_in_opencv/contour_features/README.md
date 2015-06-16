@@ -90,6 +90,14 @@ Output:
 
 ![min_circle.png](./screenshots/min_circle.png)
 
+# Fit an eclipse
+
+The code `demo_fit_eclipse.py` illustrate fitting a rotated eclipse to a shape. It is essentially a rotated rectangle, but with a eclipse instead.
+
+Output:
+
+![fit_eclipse.png](./screenshots/fit_eclipse.png)
+
 # Bonus: Trackbar Contour Approximation App
 
 The code: `trackbar_contour_approx.py`.
