@@ -98,6 +98,14 @@ Output:
 
 ![fit_eclipse.png](./screenshots/fit_eclipse.png)
 
+# Fit a line
+
+The code `demo_fit_line.py` illustrate fitting a line to a shape.
+
+Output:
+
+![fit_line.png](./screenshots/fit_line.png)
+
 # Bonus: Trackbar Contour Approximation App
 
 The code: `trackbar_contour_approx.py`.
