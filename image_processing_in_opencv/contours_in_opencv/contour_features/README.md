@@ -82,6 +82,14 @@ Output:
 
 ![bounding_rectangle.png](./screenshots/bounding_rectangle.png)
 
+# Minimum Enclosing Circle
+
+The code `demo_min_enclosing_circle.py` illustrate minimum enclosing circle.
+
+Output:
+
+![min_circle.png](./screenshots/min_circle.png)
+
 # Bonus: Trackbar Contour Approximation App
 
 The code: `trackbar_contour_approx.py`.
