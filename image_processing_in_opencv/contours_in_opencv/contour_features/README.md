@@ -74,6 +74,14 @@ Output:
 
 The `cv2.isContourConvex(hull)` step in the code returns `True` - indicating that the image is a convex shape.
 
+# Bounding Rectangle
+
+The code `demo_bounding_rectangle.py` illustrate both straight and rotated bounding rectangles.
+
+Output:
+
+![bounding_rectangle.png](./screenshots/bounding_rectangle.png)
+
 # Bonus: Trackbar Contour Approximation App
 
 The code: `trackbar_contour_approx.py`.
