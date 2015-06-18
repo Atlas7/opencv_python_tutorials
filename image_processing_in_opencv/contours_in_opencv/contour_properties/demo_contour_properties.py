@@ -33,6 +33,14 @@ def get_area(a_contour):
     extent = float(area) / rect_area
     return extent
 
+# Solidity
+def get_solidity(a_contour):
+    area = cv2.contourArea(a_contour)
+    hull = cv2.convexHull(a_contour)
+    hull_area = cv2.contourArea(hull)
+    solidity = float(area)/hull_area
+    return solidity
+
 #%%
 # Inline code
 cnt = get_a_contour("blue_thunder.png")
