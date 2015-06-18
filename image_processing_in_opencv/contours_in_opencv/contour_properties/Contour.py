@@ -105,7 +105,13 @@ class Contour(object):
         rightmost = tuple(cnt[cnt[:, :, 0].argmax()][0])
         topmost = tuple(cnt[cnt[:, :, 1].argmin()][0])
         bottommost = tuple(cnt[cnt[:, :, 1].argmax()][0])
-        return (leftmost, rightmost, topmost, bottommost)
+        extreme_points = {
+            "left": leftmost,
+            "right": rightmost,
+            "top": topmost,
+            "bottom": bottommost
+        }
+        return extreme_points
 
     def show_image(self, img):
         cv2.imshow("img", img)

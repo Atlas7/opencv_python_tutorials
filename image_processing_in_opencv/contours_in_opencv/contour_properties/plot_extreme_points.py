@@ -18,16 +18,9 @@ cnt = a.coordinates
 #%%
 img = a.img
 #%%
-pts_dict = {
-    "left": pts[0], 
-    "right": pts[1],
-    "top": pts[2],
-    "bottom": pts[3]
-}
-#%%
-for pt in pts_dict:
-    cv2.circle(img, pts_dict[pt], 3, (0, 0, 255), -1)
-    cv2.putText(img, pt, pts_dict[pt], cv2.FONT_HERSHEY_PLAIN, 1, (255, 255, 255), 2, cv2.LINE_AA)
+for pt in pts:
+    cv2.circle(img, pts[pt], 3, (0, 0, 255), -1)
+    cv2.putText(img, pt, pts[pt], cv2.FONT_HERSHEY_PLAIN, 1, (255, 255, 255), 2, cv2.LINE_AA)
 
 cv2.imshow("img", img)
 cv2.waitKey()
